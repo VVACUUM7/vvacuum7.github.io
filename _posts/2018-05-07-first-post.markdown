@@ -9,4 +9,4 @@ categories: uncategorized
 
 This is GitHub :  https://github.com/
 
-I like at math and programming
+I like math and programming
