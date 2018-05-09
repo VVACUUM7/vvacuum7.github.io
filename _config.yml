@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Varun's World
+title: vvacuum7's Jekyll Site
 email: varun.vemulapalli@warriorlife.net
 description: >- # this means to ignore newlines until "baseurl:"
   This site is about me, vvacuum7. I am a human who likes math and programming. I like playing games and having fun.
