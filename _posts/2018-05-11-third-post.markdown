@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Third Post"
+title:  "Markdown things"
 date:   2018-05-11 10:55:49 -0700
 categories: uncategorized
 author: vvacuum7
