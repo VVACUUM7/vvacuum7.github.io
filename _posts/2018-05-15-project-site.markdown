@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Markdown things"
+title:  "My Website"
 date:   2018-05-15 10:55:49 -0700
 categories: uncategorized
 author: vvacuum7
