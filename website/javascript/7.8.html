@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Room Service</title>
+</head>
+
+<body>
+
+<script type="text/javascript">
+	while(true) {
+		var time = eval(prompt("What time is it? Please write inyour answer in Military Time and exclude minute values"));
+		if( time < 0 || time > 24 ) {
+			alert("Error time cannot be less than 0 or greater than 24");
+			continue;
+		}
+		if( time >= 6 && time <= 10 )
+			{ alert("Nice! We have continental breakfast served in the lobby!");}
+			var answer = prompt("Would you like to make a reservation? Please put your answer in quotations");
+		if( answer != "yes") {
+			var answer = prompt("Enter the hour you would like between 6:00 and 10:00.");
+			{ alert("Your reservation is set!");}
+		}
+		if( answer != "no") {
+			break;
+		}
+		else if( time >= 11 && time <= 13 )
+			{ alert("Noice We have lunch at the restaurant!"); }
+			if( answer != "yes" ) {
+				prompt("Enter the hour you would like between 11:00 and 13:00.");
+			}
+			if( answer != "no" ) {
+				break;
+			}
+			else if(time >= 17 && time <= 21 )
+				{ alert("Noice! We got dinner at the restaurant!"); }
+				if( answer != "yes") {
+					prompt("Enter the hour you would lile between 17:00 and 21:00.");
+				}
+				if( answer != "no") {
+					break;
+				}
+				else
+					{ alert(" Ha! Get trolled! The restaurant isn't open! Starve or get a snack nerd!"); }
+	}
+</script>
+
+</body>
+</html>

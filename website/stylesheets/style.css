@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* My Color Palette
+Color 1: #CC0035
+Color 2: #00D3FF
+Color 3: #34FF12
+*/
+body { font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color:red;
+background-color:Aqua;
+		}
+		#footer p {
+		text-align:right
+		}
+		/*****************************************************************************************************************
+																																						BASIC STRUCTURE
+		******************************************************************************************************************/
+		#wrapper {
+			width: 960px;
+			padding: 5px;
+			margin:20px auto;
+		}
+		
+		#header {
+			height: 100px;
+		}
+		
+		#sidebar {
+			float:left;
+			width: 300px;
+		}
+		
+		#content {
+			float: right;
+			width:600px
+		}
+		#footer {
+			clear:both;
+		}			
+		/*****************************************************************************************************************************************************
+																																					COLORS AND FONTS
+		******************************************************************************************************************************************************/
+			body {
+				font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+				color: Red;
+				background-color:yellow;
+				background-image: url("../images/background1.gif");
+			}
+			#header, #sidebar, #content, #footer {
+				background-color: rgba( 50, 120, 60, 0.8);
+				margin-bottom: 4px;
+				border:solid;
+				border-radius: 8px;
+				border-color: blue;
+				padding-left: 4px;
+				padding-right: 4px;
+				
+			}
+		/*****************************************************************************************************************************************************
+		
+																																					TRANSPARENT BACKGROUNDss
+		******************************************************************************************************************************************************/
+		
+		
+		/*****************************************************************************************************************************************************
+		
+																																							RESPONSE WIDTH
+				
+		******************************************************************************************************************************************************/
+		@media screen and (max-width: 980px) {
+			#wrapper {
+					width: 94%;
+			}
+			
+			#content { 
+				width:65%;
+			}
+			
+			#sidebar {
+					width: 30%;
+			}
+}
+
+@media screen and (max-width: 700px) {
+#content, #sidebar {
+		width: auto;
+		float: none;
+	}
+	#header {
+			height:auto;
+	}
+}
+
+
+
+
+
+

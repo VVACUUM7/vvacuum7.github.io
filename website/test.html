@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+</head>
+
+<body>
+<script type="text/javascript">
+
+var name = prompt("What is your name? (Enter end to stop)");
+var class1 = prompt("What is your first class?");
+var grade1 = prompt("What is your grade for that class?");
+var class2 = prompt (" What is your second class?");
+var grade2 = prompt("What is your second grade?");
+var class3 = prompt("What is your third class?");
+var grade3 = prompt("What is your third grade?");
+
+
+	
+	
+
+var GPA_Sum = Number(grade1) + Number(grade2) + Number(grade3)
+
+var GPA_Average = GPA_Sum/3
+
+
+if (grade1 == 4) {
+	grade1 == ("A");
+}
+else if (grade1 == 3) {
+	grade1 == ("B");
+}
+else if (grade1 == 2) {
+	grade1 == ("C");
+}
+else if (grade1 == 1) {
+	grade1 == ("D");
+}
+else if (grade1 == 0) {
+	grade1 == ("F");
+}
+
+
+
+if (grade2 == 4) {
+	grade2 == ("A");
+}
+else if (grade2 == 3) {
+	grade2 == ("B");
+}
+else if (grade2 == 2) {
+	grade2 == ("C");
+}
+else if (grade2 == 1) {
+	grade2 == ("D");
+}
+else if (grade2 == 0) {
+	grade2 == ("F");
+}
+
+
+
+if (grade3 == 4) {
+	grade3 == ("A");
+}
+else if (grade3 == 3) {
+	grade3 == ("B");
+}
+else if (grade3 == 2) {
+	grade3 == ("C");
+}
+else if (grade3 == 1) {
+	grade3 == ("D");
+}
+else if (grade3 == 0) {
+	grade3 == ("F");
+}
+
+while (name != "end") {
+	
+	document.write("Student Name: " +      name + "<br>");
+	
+	document.write("Class:      Grade:" + "<br>");
+	
+	document.write(class1: +"        " + grade1 + "<br>");
+	
+	document.write(class2: + "       " + grade2)+ "<br>";
+	
+	document.write(class3: + "       " + grade3 + "<br>");
+	
+	document.write("Sum of GPA" + "       " + sum + "<br>");
+	
+	document.write("Average of GPA" + "       " + average + "<br>");
+	
+	var name = prompt("What is your name? (Enter end to stop)");
+	var class1 = prompt("What is your first class?");
+	var grade1 = prompt("What is your grade for that class?");
+	var class2 = prompt (" What is your second class?");
+	var grade2 = prompt("What is your second grade?");
+	var class3 = prompt("What is your third class?");
+	var grade3 = prompt("What is your third grade?");
+}
+
+</script>
+
+</body>
+</html>
