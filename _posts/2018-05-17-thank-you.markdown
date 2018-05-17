@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2018-05-17 10:23:27 -0700
+categories: uncategorized
+author: ebdude
+---
+
+Hi Varun, 
+Thank you for helping me in math, programming, and some other classes. You helped me in many subjects, so I just want to say thanks. 
+Sincerely, Eshaan
